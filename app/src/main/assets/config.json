@@ -1,0 +1,106 @@
+[
+  {
+    "title":"Новости",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Новости",
+        "provider":"wordpress",
+        "arguments":[
+          "http://cservice.mypressonline.com",
+          "news",
+          "http://cservice-2.disqus.com/;cservice-2;%d http://cservice.mypressonline.com/?p=%d"
+          ]
+        }
+        ]
+      },{
+        "title":"Услуги",
+        "drawable":"",
+        "submenu":"",
+        "iap":false,
+        "tabs":[
+          {
+            "title":"Услуги",
+            "provider":"wordpress",
+            "arguments":[
+              "http://cservice.mypressonline.com",
+              "service",
+              "http://cservice-2.disqus.com/;cservice-2;%d http://cservice.mypressonline.com/?p=%d"
+          ]
+          }
+        ]
+      },{
+        "title":"Ремонт ПК",
+        "drawable":"",
+        "submenu":"",
+        "iap":false,
+        "tabs":[
+          {
+            "title":"Ремонт ПК",
+            "provider":"wordpress",
+            "arguments":[
+              "http://cservice.mypressonline.com",
+              "repair_pc",
+              "http://cservice-2.disqus.com/;cservice-2;%d http://cservice.mypressonline.com/?p=%d"
+            ]
+          }
+        ]
+      },{
+        "title":"Ремонт телефонов",
+        "drawable":"",
+        "submenu":"",
+        "iap":false,
+        "tabs":[
+          {
+            "title":"Ремонт телефонов",
+            "provider":"wordpress",
+            "arguments":[
+              "http://cservice.mypressonline.com",
+              "repair_tele",
+              "http://cservice-2.disqus.com/;cservice-2;%d http://cservice.mypressonline.com/?p=%d"
+            ]
+          }
+        ]
+      },{
+        "title":"Обслуживание ПО",
+        "drawable":"",
+        "submenu":"",
+        "iap":false,
+        "tabs":[
+          {
+            "title":"Обслуживание ПО",
+            "provider":"wordpress",
+            "arguments":[
+              "http://cservice.mypressonline.com",
+              "maintenance",
+              "http://cservice-2.disqus.com/;cservice-2;%d http://cservice.mypressonline.com/?p=%d"
+            ]
+          }
+        ]
+      },{
+        "title":"Информация",
+        "drawable":"",
+        "submenu":"",
+        "iap":false,
+        "tabs":[
+          {
+            "title":"Информация",
+            "provider":"wordpress",
+            "arguments":[
+              "http://cservice.mypressonline.com",
+              "about",
+              "http://cservice-2.disqus.com/;cservice-2;%d http://cservice.mypressonline.com/?p=%d"
+            ],
+            "title":"О сайте",
+            "provider":"wordpress",
+            "arguments":[
+              "http://cservice.mypressonline.com",
+              "about_site",
+              "http://cservice-2.disqus.com/;cservice-2;%d http://cservice.mypressonline.com/?p=%d"
+            ]
+          }
+        ]
+      }
+    ]
